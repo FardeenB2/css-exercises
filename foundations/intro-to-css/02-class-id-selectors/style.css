@@ -1,0 +1,20 @@
+.pinkClass {
+    background-color: rgb(255, 141, 234);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+
+}
+
+.pinkClass.cooler {
+    font-size: 24px;
+}
+
+#blueText {
+    color: rgb(0, 138, 244);
+    font-size: 36px;
+}
+
+#greenText {
+    background-color: rgb(125, 212, 140);
+    font-size: 24px;
+    font-weight: bold;
+}
