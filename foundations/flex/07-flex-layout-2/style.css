@@ -4,26 +4,48 @@ body {
   min-height: 100vh;
 }
 
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;    /*wrap cards if too much in a row*/
+  flex: 1;            /*automatrically pushes main content so that the next container can fill into the bottom*/
+
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;      /*done*/
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 400px;   /*set base width*/
+  padding-bottom: 150px;
+  
+  
 }
